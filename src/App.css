@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+#info {
+  color: #213547;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	text-align: center;
+	z-index: 1; /*0 tambien jalaria*/
+	display:block;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Score{
+  color: #ffffff;
+	position: relative;
+	top: -75%;
+	text-align: center;
+	z-index: 1; /*0 tambien jalaria*/
+	display:block;
+}
+
+.Score2{
+  color: #ffffff;
+	position: relative;
+	top: -70%;
+	text-align: center;
+	z-index: 1; /*0 tambien jalaria*/
+	display:block;
+}
+
+.Lose{
+  text-align: center;
+  background-color: #000000;
+  padding-left: 80%;
+  padding-right: 80%;
+  top: -50%;
+}
+
+.Lose h1{
+  color: red;
+}
